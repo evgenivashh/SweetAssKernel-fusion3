@@ -16,7 +16,6 @@ export ARCH=arm
 make fusion3_odin_defconfig
 make zImage
 mv ./arch/arm/boot/zImage ./anykernel/zImage.odin
-cp ./arch/arm/boot/dtb* ./anykernel/
 
 make clean
 make mrproper
@@ -24,7 +23,6 @@ export ARCH=arm
 make fusion3_yuga_defconfig
 make zImage
 mv ./arch/arm/boot/zImage ./anykernel/zImage.yuga
-cp ./arch/arm/boot/dtb* ./anykernel/
 
 cd ./anykernel
 
