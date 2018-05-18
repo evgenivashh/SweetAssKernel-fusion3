@@ -2835,4 +2835,11 @@ config MSM_MODEM_SUBSYSTEM_RESTART_MONITOR
 	  This option enables a module which can notify user-space
 	  applications of modem subsystem power up/down event via uevent.
 
+config FORCE_FAST_CHARGE
+	bool "Force faster charge rate for AC/USB"
+	default y
+	help
+	  This allows users to override default charge rate for both USB and AC
+	  charger input current
+
 endif
