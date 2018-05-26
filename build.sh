@@ -26,4 +26,4 @@ mv ./arch/arm/boot/zImage ./anykernel/zImage.yuga
 
 cd ./anykernel
 
-zip -r SmartAss-Kernel-v1.0-fusion3.zip . -x ".*"
+zip -r SweetAss-Kernel-v1.0-fusion3.zip . -x ".*"
