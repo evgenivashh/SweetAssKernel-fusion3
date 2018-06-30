@@ -2,7 +2,7 @@
 
 rm ./arch/arm/boot/zImage*
 
-export CROSS_COMPILE=~/gcc-linaro-6.3.1/bin/arm-eabi-
+export CROSS_COMPILE=~/gcc-linaro-6.4.1/bin/arm-eabi-
 make clean
 make mrproper
 export ARCH=arm
@@ -26,4 +26,4 @@ mv ./arch/arm/boot/zImage ./anykernel/zImage.yuga
 
 cd ./anykernel
 
-zip -r SweetAss-Kernel-v1.0-fusion3.zip . -x ".*"
+zip -r SweetAss-Kernel-v2.0-fusion3.zip . -x ".*"
